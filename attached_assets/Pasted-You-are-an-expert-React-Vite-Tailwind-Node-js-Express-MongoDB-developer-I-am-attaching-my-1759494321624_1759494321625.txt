@@ -1,0 +1,190 @@
+You are an expert React + Vite + Tailwind + Node.js + Express + MongoDB developer.
+I am attaching my existing projects as ZIP files (User Panel + Admin Panel).
+
+👉 UserPanelX-2.zip is the User Panel project.
+👉 StudyBuddyAI.zip is the Admin Panel project.
+
+⚠ You must use these exact projects.
+⚠ Do not create a new project from scratch.
+⚠ Only add the missing features into these existing projects.
+⚠ Everything that is already working must remain as-is.
+⚠ Final delivery = same projects, only updated with the required features.
+
+🚨 Rules (Must Follow Strictly)
+
+❌ Do NOT deploy anywhere (no hosting, no paid Replit plan).
+
+✅ Do only coding and testing locally inside Replit.
+
+✅ At the end, you must export two separate ZIP files:
+
+User Panel Final → UserPanelX-3.zip
+
+Admin Panel Final → AdminPanel.zip
+
+⚠ Replit normally exports one ZIP, so you must keep User Panel and Admin Panel in two different projects/folders and export separately.
+
+⚠ Some work is already completed (frontend skeleton, product folders).
+👉 If you see something already done, do NOT overwrite it, just leave it as-is. Only complete the pending work.
+
+🗂 Deliverables (Final Export)
+
+UserPanelX-3.zip
+Complete User Panel project (frontend + backend connected).
+
+AdminPanel.zip
+Complete Admin Panel project (frontend + backend connected).
+
+Both must run independently:
+
+Frontend:
+
+npm install
+npm run dev
+
+
+Backend:
+
+npm install
+node server.js
+
+
+🔑 Pending Work (Must Complete)
+
+Authentication
+
+Signup + Login backend (JWT + bcrypt).
+
+2FA (OTP) for Admin login.
+
+Role-based access (User / Admin).
+
+Payments
+
+Integrate Razorpay + Stripe (LIVE mode, no sandbox).
+
+Support UPI, QR, Binance, Bank transfer (“I’ve Paid” flow).
+
+Implement payment webhooks to auto-confirm purchases.
+
+Referral System
+
+3-level referral chain.
+
+Auto credit commission for Level 1 → 2 → 3.
+
+Update user wallet after successful payment.
+
+Wallet & Withdrawals
+
+Auto-update wallet balance.
+
+Withdrawal requests (UPI ID/Bank).
+
+Admin approve / auto-process.
+
+Save payout records with reference ID.
+
+Notifications
+
+Admin broadcast API (emoji + title + message + timestamp).
+
+Deliver to users in real-time via Socket.IO.
+
+Show in User Panel notification feed.
+
+Analytics
+
+Track demo video watch time + drop-offs.
+
+Track signups & completed payments.
+
+Admin dashboard: total users, revenue, conversion.
+
+Export CSV/Excel for leads, referrals.
+
+FAQ
+
+Admin CRUD (add/edit/delete by category).
+
+User panel fetch FAQs via API.
+
+Admin Panel Features
+
+Dashboard with live metrics.
+
+Clients list with payment status.
+
+Referral analytics tree (3 levels).
+
+Product manager (add/edit/delete).
+
+Campaign manager (referral campaigns).
+
+FAQ editor.
+
+Notifications (broadcast + history).
+
+Payout manager (approve/auto-pay).
+
+Team accounts with role-based access.
+
+Security
+
+JWT refresh tokens.
+
+bcrypt password hashing.
+
+2FA for admin.
+
+Webhook signature verification.
+
+HTTPS-ready code.
+
+(Optional)
+
+CRM integration (Zoho/HubSpot).
+
+Email campaigns (Mailchimp/Sendinblue).
+
+🎨 UI/UX Rules
+
+Use TailwindCSS.
+
+Dark theme defaults:
+
+Background: #212121 / #121212
+
+Primary: #1E88E5
+
+Hover: #F9A825
+
+Success: #00C853
+
+Error: #D32F2F
+
+Sidebar vertical stack with emoji icons.
+
+Responsive design (desktop + mobile).
+
+✅ Final Checklist for Delivery
+
+Two separate ZIP files: UserPanelX-3.zip and AdminPanel.zip.
+
+No deployment, no paid plan.
+
+No dummy data, no “coming soon”.
+
+Only real working APIs connected.
+
+Already completed parts untouched.
+
+Backend + frontend fully functional.
+
+Final projects = same as provided ZIPs, only updated with new features.
+
+👉 Follow this prompt exactly.
+👉 Do not skip any pending feature.
+👉 Do not merge both panels.
+👉 Do not overwrite already working code.
+👉 Final handover must be two independent projects in ZIP format.

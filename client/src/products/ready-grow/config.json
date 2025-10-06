@@ -1,0 +1,17 @@
+{
+  "id": "ready-grow",
+  "title": "Ready + Grow",
+  "description": "Complete business growth package with all tools included.",
+  "icon": "🚀",
+  "color": "bg-purple-500",
+  "features": [
+    "All automation tools",
+    "Website development",
+    "Digital marketing",
+    "Priority support"
+  ],
+  "price": "₹14,999/month",
+  "category": "Complete Package",
+  "demoAvailable": true,
+  "aiEnabled": true
+}

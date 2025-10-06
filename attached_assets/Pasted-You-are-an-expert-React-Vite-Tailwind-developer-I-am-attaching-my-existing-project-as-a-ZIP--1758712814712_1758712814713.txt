@@ -1,0 +1,89 @@
+You are an expert React + Vite + Tailwind developer.  
+I am attaching my existing project as a ZIP file.  
+
+⚠️ First, check inside the ZIP what has already been built.  
+⚠️ Then fix the current errors.  
+⚠️ After that, complete the pending work.  
+⚠️ Remember: this is ONLY the **User Panel**, not Admin Panel or Backend.  
+
+---
+
+### Step 1: Fix Errors
+- In the ZIP, `npm run dev` is failing because "dev" script is missing.  
+- Add proper scripts in package.json:  
+  "dev": "vite",  
+  "build": "vite build",  
+  "preview": "vite preview"  
+- Ensure the project runs locally with `npm install` + `npm run dev`.  
+
+---
+
+### Step 2: Complete Pending User Panel Features
+
+**Auth Flow**
+- Sign-up page with: Full Name, Mobile, Email, City, Country, Business Category, Password + Confirm.  
+- Login page with Email + Password.  
+- Form validation: required fields, confirm password match, invalid email format.  
+- On submit → log data in console only (no backend).  
+
+**Routing**
+- Use React Router with routes: /login, /signup, /dashboard, /products, /referral, /notifications, /faq, /profile.  
+- After login, redirect to /dashboard.  
+
+**Dashboard Page**
+- Greeting strip with user’s name.  
+- Business snapshot (static sample numbers).  
+- Motivational highlight.  
+- Success stories carousel.  
+- Mini performance snapshot.  
+- Campaign teaser.  
+
+**Sidebar Navigation**
+- Links: Dashboard, Our Products, Referral Program, Connect With Us, Notifications, FAQ, Profile, Logout.  
+- Sidebar collapsible on mobile.  
+- Topbar sticky.  
+
+**Our Products Page**
+- Left panel: List of products (WhatsApp Automation, Wasender, Ready + Grow, Map Extractor, Digital Visiting Card, Bulk IVR Calls, Website Service).  
+- Right panel: blank placeholder.  
+- Each product stored as modular folder in `/products/product-name/`:  
+  - config.json  
+  - demo.js  
+  - buy.js  
+  - ai.js (optional toggle)  
+  - style.css  
+  - assets/ (videos, icons)  
+
+**Referral Program Page**
+- Show 3-level referral chain (static demo data).  
+- Invite/share button (log action in console).  
+- Wallet/earnings panel with Withdraw button (mock only, no integration).  
+
+**Other Pages**
+- Connect With Us → pre-filled WhatsApp/email links.  
+- Notifications → static list + toggle.  
+- FAQ → accordion style.  
+- Profile → editable form (log updates to console).  
+- Logout → clear session and redirect to login.  
+
+---
+
+### Step 3: UI/UX
+- Dark Mode Theme:  
+  Background: #212121, #121212  
+  Primary: #1E88E5  
+  Hover: #F9A825  
+  Success: #00C853  
+  Error: #D32F2F  
+- Responsive desktop + mobile.  
+- Modals center aligned.  
+- Touch-friendly.  
+
+---
+
+### Rules
+- NO Stripe, Razorpay, Binance, or external payments. Only placeholders.  
+- NO dummy/test users. Use configs and static placeholders only.  
+- Must remain modular → editing one product/module must not break others.  
+- At the end, deliver a **corrected and complete ZIP** ready to run locally.  
+- Do NOT deploy, do NOT ask for API keys or secrets. I only need the code.  

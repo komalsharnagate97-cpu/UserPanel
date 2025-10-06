@@ -1,0 +1,17 @@
+{
+  "id": "wasender",
+  "title": "Wasender",
+  "description": "Send bulk WhatsApp messages to your customer base efficiently.",
+  "icon": "📨",
+  "color": "bg-blue-500",
+  "features": [
+    "Bulk messaging",
+    "Contact management",
+    "Message templates",
+    "Delivery reports"
+  ],
+  "price": "₹2,999/month",
+  "category": "Marketing",
+  "demoAvailable": true,
+  "aiEnabled": false
+}

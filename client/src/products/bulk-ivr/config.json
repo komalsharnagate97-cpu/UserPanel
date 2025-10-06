@@ -1,0 +1,17 @@
+{
+  "id": "bulk-ivr",
+  "title": "Bulk IVR Calls",
+  "description": "Automated voice calling system for marketing and notifications.",
+  "icon": "📞",
+  "color": "bg-red-500",
+  "features": [
+    "Voice campaigns",
+    "Call scheduling",
+    "Response tracking",
+    "Custom messages"
+  ],
+  "price": "₹5,999/month",
+  "category": "Voice Marketing",
+  "demoAvailable": true,
+  "aiEnabled": false
+}

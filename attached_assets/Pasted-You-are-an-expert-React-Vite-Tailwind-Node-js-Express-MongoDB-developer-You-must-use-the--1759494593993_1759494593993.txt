@@ -1,0 +1,108 @@
+You are an expert React + Vite + Tailwind + Node.js + Express + MongoDB developer.
+You must use the existing User Panel project archive UserPanelX-2.zip (do not create a new project). Only add the missing features listed below; do not overwrite anything already working. Work and test locally in Replit. At the end export the updated project as UserPanelX-3.zip.
+
+Hard rules (follow exactly)
+
+⚠ Use the exact project UserPanelX-2.zip that I will provide. Do not create a new project from scratch.
+
+✅ Only add missing features and fixes; everything already working must remain unchanged.
+
+❌ Do NOT deploy or purchase any paid plan. No hosting.
+
+✅ Test and run everything locally inside Replit.
+
+✅ Final deliverable for this repo: UserPanelX-3.zip (frontend + backend working independently).
+
+✅ Frontend run: npm install → npm run dev.
+
+✅ Backend run: npm install → node server.js (or existing start script).
+
+✅ Use Tailwind CSS. Maintain dark theme palette and responsive design (see UI rules).
+
+✅ Do not merge or combine with Admin Panel—keep projects independent.
+
+Required features to add/complete (User Panel specifics)
+
+Implement the following for the user-facing project only:
+
+Authentication & Roles
+
+Signup + Login APIs (backend) using JWT and bcrypt (store hashed password).
+
+Refresh tokens (secure, HttpOnly cookies or refresh token endpoint).
+
+Role-based access: roles at minimum user and admin (user panel should respect user role).
+
+Payments (user flows)
+
+Integrate Razorpay and Stripe in LIVE mode (keys via .env). Implement client checkout flows:
+
+Card/UPI/QR options where supported.
+
+“I’ve Paid” flow for manual transfers (UPI / bank / Binance) — create endpoint to submit proof and mark pending.
+
+On successful payment, update Payment record and credit user wallet (via backend).
+
+Implement webhook endpoints (Razorpay & Stripe) to auto-confirm payments and update DB. Validate webhook signatures.
+
+Referral & Wallet
+
+Support referral code at signup (single-field). Track referredBy.
+
+Implement 3-level referral commission distribution when a referred user makes a qualifying payment.
+
+Update user wallet balance automatically on successful payment (and on referral commissions).
+
+Wallet API endpoints: fetch balance, history, and redemption/withdrawal request submission.
+
+Withdrawals (user)
+
+Withdrawal request form (UPI ID or Bank details). POST to backend withdrawals endpoint.
+
+Show withdrawal status to user (requested / approved / processed / rejected).
+
+Notifications & Real-time
+
+Connect to backend Socket.IO to receive admin broadcasts and user-specific notifications.
+
+Show notification feed in User Panel UI with emoji, title, message, timestamp.
+
+Mark notifications as read/unread.
+
+FAQ & Support
+
+Fetch FAQ via API and show in User Panel.
+
+Include “Report Payment” or “Support” flow to upload evidence (screenshot) + message.
+
+Analytics (basic, user-facing)
+
+Track demo video watch time events (start/pause/stop) and send to backend.
+
+Track purchases (successful payment event).
+
+Provide endpoint to export user's own transactions/referrals as CSV.
+
+Security & UX
+
+Use HTTPS-ready code patterns for API base URLs and secure cookies.
+
+Use the dark theme palette:
+
+Background: #212121 / #121212
+
+Primary: #1E88E5
+
+Hover: #F9A825
+
+Success: #00C853
+
+Error: #D32F2F
+
+Sidebar vertical stack with emoji icons, responsive layout.
+
+Deliverables (User Panel)
+
+UserPanelX-3.zip — Full project (frontend + backend). Ready to run locally with instructions in README.
+
+Do not include dummy data or "coming soon". Everything must be working with real APIs.

@@ -1,0 +1,17 @@
+{
+  "id": "map-extractor",
+  "title": "Map Extractor",
+  "description": "Extract business leads from Google Maps for targeted marketing.",
+  "icon": "🗺️",
+  "color": "bg-orange-500",
+  "features": [
+    "Location-based extraction",
+    "Business data mining",
+    "Contact information",
+    "Export options"
+  ],
+  "price": "₹3,999/month",
+  "category": "Lead Generation",
+  "demoAvailable": true,
+  "aiEnabled": false
+}

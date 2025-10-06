@@ -1,0 +1,17 @@
+{
+  "id": "website-service",
+  "title": "Website Service",
+  "description": "Professional website development and maintenance services.",
+  "icon": "🌐",
+  "color": "bg-teal-500",
+  "features": [
+    "Responsive design",
+    "SEO optimization",
+    "Maintenance support",
+    "Custom development"
+  ],
+  "price": "₹19,999 one-time",
+  "category": "Web Development",
+  "demoAvailable": true,
+  "aiEnabled": false
+}

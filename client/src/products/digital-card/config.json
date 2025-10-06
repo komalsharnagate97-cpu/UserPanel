@@ -1,0 +1,17 @@
+{
+  "id": "digital-card",
+  "title": "Digital Visiting Card",
+  "description": "Create professional digital business cards with modern features.",
+  "icon": "💳",
+  "color": "bg-pink-500",
+  "features": [
+    "Interactive design",
+    "Contact sharing",
+    "Analytics tracking",
+    "Multi-platform support"
+  ],
+  "price": "₹999/month",
+  "category": "Branding",
+  "demoAvailable": true,
+  "aiEnabled": false
+}

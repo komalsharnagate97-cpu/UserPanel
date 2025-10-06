@@ -1,0 +1,17 @@
+{
+  "id": "whatsapp-automation",
+  "title": "WhatsApp Automation",
+  "description": "Automate your WhatsApp business communications with our advanced bot technology.",
+  "icon": "📱",
+  "color": "bg-green-500",
+  "features": [
+    "Auto-reply messages",
+    "Broadcast campaigns", 
+    "Customer segmentation",
+    "Analytics dashboard"
+  ],
+  "price": "₹4,999/month",
+  "category": "Communication",
+  "demoAvailable": true,
+  "aiEnabled": true
+}
